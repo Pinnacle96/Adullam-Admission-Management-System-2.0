@@ -156,4 +156,5 @@ For Technical Support, Contact:
 
 ---
 
-> Developed with ❤️ by CodeGPT & Adullam Team
+> Developed with ❤️ by Pinnacle Tech Hub
+> For any question on this project contact me on Whatsapp https:wa.me/+2348150829549/
