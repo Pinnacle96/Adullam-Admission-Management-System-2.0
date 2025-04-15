@@ -113,6 +113,13 @@ $showMAFocus = !empty(array_filter($applicants, fn($a) => $a['program'] === 'MA'
                                 View</a>
                             <a href="generate_review_sheet.php?id=<?= $a['id'] ?>" target="_blank"
                                 class="text-indigo-700 hover:underline text-sm">🧾 Review Sheet</a>
+                                <a href="javascript:void(0);"
+   onclick="confirmDelete(<?= $a['id'] ?>)"
+   class="text-red-600 hover:underline text-sm">
+   🗑️ Delete
+</a>
+
+
 
                         </td>
                     </tr>
@@ -138,3 +145,23 @@ $showMAFocus = !empty(array_filter($applicants, fn($a) => $a['program'] === 'MA'
         </tbody>
     </table>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+function confirmDelete(id) {
+    Swal.fire({
+        title: 'Are you sure?',
+        text: "This action cannot be undone!",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#3085d6',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'Cancel'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            window.location.href = 'delete_application.php?id=' + id;
+        }
+    })
+}
+</script>
