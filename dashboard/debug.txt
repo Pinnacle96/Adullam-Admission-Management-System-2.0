@@ -1,0 +1,5 @@
+Array
+(
+    [login_email] => superadmin@adullam.ng
+    [password] => Superadmin
+)

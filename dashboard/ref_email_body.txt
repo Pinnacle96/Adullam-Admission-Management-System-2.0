@@ -1,0 +1,40 @@
+
+<div style='font-family:Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:600px;margin:auto;padding:20px;background-color:#f9fafb;border-radius:8px;border:1px solid #eee;'>
+  <div style='text-align:center;margin-bottom:30px;'>
+    <img src='127.0.0.1/adullam.ng/assets/img/logo.png' alt='Adullam Seminary' style='height:60px;' />
+    <h2 style='color:#6B21A8;margin:10px 0 0;'>Adullam Seminary Admissions</h2>
+  </div>
+
+  <p style='font-size:16px;color:#111;'>Dear <strong>Arome Iduh</strong>,</p>
+
+  <p style='font-size:15px;color:#333;line-height:1.6;'>
+  You have been listed as a referee by <strong>David Ojodomo</strong>, an applicant to <strong>Adullam Seminary</strong>.
+  We kindly request your support in completing a recommendation form on their behalf.
+</p>
+
+
+  <p style='font-size:15px;color:#333;line-height:1.6;'>Please click the button below to securely submit your recommendation:</p>
+
+  <div style='text-align:center;margin:30px 0;'>
+    <a href='127.0.0.1/adullam.ng/dashboard/recommend.php?token=d77d8c97fb62f14addaae9f45bd0978ba3a40220'
+       style='background-color:#6B21A8;color:white;padding:12px 24px;
+              text-decoration:none;border-radius:6px;font-weight:bold;
+              display:inline-block;'>Submit Recommendation</a>
+  </div>
+
+  <p style='font-size:14px;color:#555;line-height:1.5;'>
+    Or copy and paste this link into your browser:<br>
+    <a href='127.0.0.1/adullam.ng/dashboard/recommend.php?token=d77d8c97fb62f14addaae9f45bd0978ba3a40220' style='color:#6B21A8;word-break:break-all;'>
+      127.0.0.1/adullam.ng/dashboard/recommend.php?token=d77d8c97fb62f14addaae9f45bd0978ba3a40220
+    </a>
+  </p>
+
+  <hr style='margin:30px 0;border:none;border-top:1px solid #ddd;' />
+
+  <p style='font-size:13px;color:#666;text-align:center;line-height:1.5;'>
+    Thank you for taking the time to support the academic journey of our applicants.<br>
+    <strong>Adullam Admissions Team</strong><br>
+    <a href='mailto:admissions@adullam.ng' style='color:#6B21A8;'>admissions@adullam.ng</a> | 
+    <a href='https://adullam.ng' style='color:#6B21A8;'>www.adullam.ng</a>
+  </p>
+</div>
